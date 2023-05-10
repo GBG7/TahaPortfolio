@@ -40,7 +40,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I've attended Satec @WA Porter & Cederbrae Collegiate Institue highschools,
+              I&apos;ve attended Satec @WA Porter & Cederbrae Collegiate Institue highschools,
               and am an incoming {" "}
               <span className="font-bold text-teal-500">
                 UofT Student
@@ -50,7 +50,7 @@ const AboutSection = () => {
             <br />
             <p>
               I have a grand range of hobbies and passion that make a verstaile person. 
-              I enjoy programming, playing video games, solving various puzzles like Rubik's Cubes. I also enjoy
+              I enjoy programming, playing video games, solving various puzzles like Rubik&apos;s Cubes. I also enjoy
               reading, playing sports, biking, weight lifting, and tinkering with my devices. 
             </p>
             <br />
