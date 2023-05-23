@@ -10,7 +10,7 @@ const projects = [
     description:
       "Alongside a group of 4, I programmed a hovercraft using the Arduino Uno R3 chip. The IR remote controlled hovercraft uses fans to go various directions, stop, and reverse. The speed is changeable. The code was written in Arduino C++    ",
     image: "/hoverboard.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+    github: "https://www.tinkercad.com/things/gLcwlLCuogF",
     link: "https://youtu.be/kxlDmpPKte0",
   },
   {
