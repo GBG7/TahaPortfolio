@@ -6,60 +6,35 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Arduino Hovercraft",
+    name: "Courtly Arts",
     description:
-      "Alongside a group of 4, I programmed a hovercraft using the Arduino Uno R3 chip. The IR remote controlled hovercraft uses fans to go various directions, stop, and reverse. The speed is changeable. The code was written in Arduino C++    ",
-    image: "/hoverboard.png",
-    github: "https://www.tinkercad.com/things/gLcwlLCuogF",
-    link: "https://youtu.be/kxlDmpPKte0",
+      " I am enamored by the courtly arts, as they bring me great pleasure and allow me to escape the demands of royal life. The beauty and grace of music, dance, and poetry provide moments of respite and inspiration within the grandeur of the royal court.",
+    image: "/1123.webp",
+    github: "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son",
+    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/330px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
   },
   {
-    name: "TetrisBrae",
-    description: "Built my own version of Tetris using pygame library, with a built in login screen, password & username authenticator. Followed Software Development Life Cycle (SDLC), utilized classes, file reading, etc",
+    name: "Reading and Intellectual Pursuits",
+    description: "I enjoy reading and intellectual pursuits because they broaden my understanding of the world and stimulate my mind. They provide me with knowledge, insights, and the opportunity to explore diverse perspectives, enriching my role as a queen.",
     image: "/tetrisbrae.jpg",
-    github: "https://github.com/GBG7/TetrisBrae",
-    link: "https://github.com/GBG7/TetrisBrae",
+    github: "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son",
+    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/330px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
   },
   {
-    name: "Breakout Pygame",
+    name: "Music",
     description:
-      "Programmed my own version of breakout using pygame library. That's it really.",
-    image: "/breakoutproject.png",
-    github: "https://github.com/GBG7/BreakoutTaha/tree/main",
-    link: "https://github.com/GBG7/BreakoutTaha/tree/main",
+      "I find joy in music because it stirs my emotions and transports me to a realm of beauty and expression. Whether it's the soothing melodies or the uplifting rhythms, music has the power to uplift my spirit and provide a respite from the demands of royal life.",
+    image: "/breakoutproject.webp",
+    github: "",
+    link: "https://www.youtube.com/playlist?list=PL4v870MCrPdWh7ry6eUdi6D49-9VMVB-Y",
   },
-  {
-    name: "Javascript Rock-Paper-Scissors",
-    description:
-      "Programmed my own version of Javascript RPS using the ProcessingJS JavaScript library. This program was one of my first ever games developed, and taught me a great deal of programming basics. Use the Khan Academy JS compiler for best experience.",
-    image: "/rpsjs.webp",
-    github: "https://github.com/GBG7/rpsjavascript",
-    link: "https://www.khanacademy.org/computer-programming/new-program/5137397628321792",
-  },
-  {
-    name: "Arduino IoT line-tracking robot",
-    description:
-      "Alongside my team partner, I built and programmed an line-tracking robot built from the Arduino IoT chip. Robot would follow a black line, and if off course, it would spin until it detects a black line again. Robot was connected to the internet using adafruit and could be controlled wirelessly.",
-    image: "/arduinocompletion.jpg",
-    github: "https://imgur.com/a/hxekMNm",
-    link: "https://imgur.com/a/hxekMNm",
-  },
-  {
-    name: "Personal portfolio website",
-    description:
-      "Built a personal portfolio website using css, html and javascript. Whilst the programming is inefficient and deprecated, the website looks relatively modern. In total, there are over 3000+ lines of code written for the site by myself alone, and it is still under development.",
-    image: "/personalsite.png",
-    github: "https://github.com/GBG7/personal/tree/master",
-    link: "https://gbg7.github.io/personal/",
-  },
-  
 ]
 
 const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        My Interests
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 

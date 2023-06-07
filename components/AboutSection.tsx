@@ -2,19 +2,11 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "nextJS" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Arduino" },
-  { skill: "C++" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Java" },
-  { skill: "Scripting" },
-
+  { skill: "Diplomacy" },
+  { skill: "Persuasion" },
+  { skill: "Cunning" },
+  { skill: "Manipulation" },
+  { skill: "Lack of Empathy" },
 ]
 
 const AboutSection = () => {
@@ -32,37 +24,23 @@ const AboutSection = () => {
               Get to know me
             </h1>
             <p className = "text-center md:text-left">
-              My name is Taha and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-disciplined"}</span>, and
-              <span className="font-bold">{" driven"}</span> student based in 
-              Toronto, Canada.
+            Greetings, I am Gertrude, the Queen of Denmark, and Hamlet's mother.
             </p>
             <br />
             <p className = "text-center md:text-left" >
-              I&apos;ve attended Satec @WA Porter & Cederbrae Collegiate Institue highschools,
-              and am an incoming {" "}
-              <span className="font-bold text-teal-500">
-                UofT Student
-              </span>{" "}
-              for the computer science program! 
+            Within the intricacies of the royal court, I navigate with a shrewd and discerning eye, ever mindful of the power dynamics and the preservation of my control over the monarchy.
             </p>
             <br />
             <p className = "text-center md:text-left">
-              I have a grand range of hobbies and passion that make a verstaile person. 
-              I enjoy programming, playing video games, solving various puzzles like Rubik&apos;s Cubes. I also enjoy
-              reading, playing sports, biking, weight lifting, and tinkering with my devices. 
+            I enjoy the privileges that come with power and the admiration of the court. However, true happiness is often elusive amidst the challenges of my life.
             </p>
             <br />
             <p className = "text-center md:text-left">
-              I believe that you should{" "}
+            I relish in,{" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                maintaining power and control,
               </span>{" "}
-              and that&#39;s what I strive to do. I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              and safeguarding the stability of the monarchy and my position at the helm.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -79,12 +57,12 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
+            <Image 
               src="/hero-image.gif"
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0 md:pt-20"
             />
           </div>
         </div>

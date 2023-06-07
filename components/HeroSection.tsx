@@ -18,15 +18,15 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hello, I&#39;m Taha</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hello, I&#39;m Gertrude</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a UofT Computer Science{" "}
+            I&#39;m the {" "}
             <span className="font-semibold text-teal-600">
-              Student,{" "}
+              Queen of Denmark,{" "}
             </span>
-             and a prospective {" "}
+             and the mother of {" "}
             <span className="font-semibold text-teal-600">
-              Software Developer{" "}
+              Hamlet{" "}
             </span>
 
           </p>
@@ -39,7 +39,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Projects
+            My Interests
           </Link>
         </div>
       </div>
