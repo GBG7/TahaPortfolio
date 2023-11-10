@@ -6,7 +6,7 @@ My personal portfolio website highlighting my accomplishments and achievements.
 
 To view, visit 
 
-www.tahasarfraz.ca
+www.tahasarfraz.com
 
 **or**
 
