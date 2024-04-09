@@ -2,8 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Taha's Personal Portfolio
 
-My personal portfolio website highlighting my accomplishments and achievements.
 ~~my incomplete POS site i need to revamp xd!~~
+My personal portfolio website highlighting my accomplishments and achievements.
 
 To view, visit 
 
